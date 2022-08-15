@@ -2,10 +2,11 @@
 using namespace std;
 int main(int argc, char const *argv[])
 {
-	int a=10;
-	cout<<a;
-	cout<<"\n"<<a++;
-	cout<<"\n"<<++a;
-	cout<<"\n";
-	return 0;
+    int*name;
+    //int n;
+    //cin>>n;
+    //name=new char[n];
+    cin>>name;
+    cout<<endl<<name;
+    return 0;
 }
